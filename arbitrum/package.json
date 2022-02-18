@@ -1,0 +1,16 @@
+{
+  "name": "olympus-oif-arbitrum",
+  "license": "UNLICENSED",
+  "scripts": {
+    "codegen": "graph codegen",
+    "build": "graph build",
+    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ drondin/olympus-oif-arbitrum",
+    "create-local": "graph create --node http://localhost:8020/ drondin/olympus-oif-arbitrum",
+    "remove-local": "graph remove --node http://localhost:8020/ drondin/olympus-oif-arbitrum",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 drondin/olympus-oif-arbitrum"
+  },
+  "dependencies": {
+    "@graphprotocol/graph-cli": "0.21.0",
+    "@graphprotocol/graph-ts": "0.20.0"
+  }
+}

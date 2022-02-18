@@ -1,0 +1,2 @@
+export let VESTA_CONTRACT = "0x3eedf348919d130954929d4ff62d626f26adbfa2"
+export let GOHM_CONTRACT = "0x8d9ba570d6cb60c7e3e0f31343efe75ab8e65fb1"
